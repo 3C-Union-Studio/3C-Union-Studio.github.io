@@ -1,0 +1,42 @@
+@keyframes logo_fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.logo_container {
+    animation-duration: 1.5;
+    animation-fill-mode: both;
+    animation-name: logo_fadeIn;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 600px; height: 400px;
+    position: absolute; left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo_container::before {
+    opacity: 0;
+}
+
+h1 logo_bigger {
+    display: flex;
+    color: white;
+    align-content: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 220%;
+}
+
+h1 logo_part2 {
+    display: flex;
+    color: whitesmoke;
+    align-content:center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
