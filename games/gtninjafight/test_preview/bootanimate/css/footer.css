@@ -1,8 +1,10 @@
+
+
 .bottom_container {
     animation-duration: 1.5s;
     animation-fill-mode: both;
     animation-name: footer_fadeIn;
-    animation-delay: 1s;
+    animation-delay: 0.8s;
 
     display: flex;
     align-items: center;
@@ -74,4 +76,15 @@
     margin-top: 8%;
     margin-left: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn_settings {
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+    animation-name: btn_settings_fadeIn;
+    animation-delay: 0.8s;
+    color: white;
+    position: fixed;
+    width: 2.5%; height: 2.5%;
+    position: absolute; left: 95%; top: 2%;
 }

@@ -1,0 +1,30 @@
+.presstobegin_container {
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+    animation-name: ptb_fadeIn;
+    animation-delay: 2s;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 600px; height: 400px;
+    position: absolute; left: 50%; top: 60%;
+    transform: translate(-50%, -5%);
+    
+}
+
+.ptbtext {
+    color: white;
+    font-size: 100%;
+} 
+
+@keyframes ptb_fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to { 
+        opacity: 1;
+    }
+}
